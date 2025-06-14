@@ -1,2 +1,20 @@
-*.log
+# Ignore compiled Java classes
 *.class
+
+# Ignore logs and system output
+*.log
+
+# Ignore Eclipse IDE files
+.classpath
+.project
+
+# Ignore Replit-specific files
+.replit
+replit.nix
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven build directory
+/target/
